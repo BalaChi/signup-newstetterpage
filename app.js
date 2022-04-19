@@ -73,7 +73,8 @@ app.post("/failure", function(req, res){
     res.redirect("/")
 });
 
-app.listen(3000,function(){
+port = process.env.PORT || 3000
+app.listen(port, function(){
     console.log("serevr started")
 })
 // 5ff9411a6bc11b4bfa4158bd3f79c843-us14

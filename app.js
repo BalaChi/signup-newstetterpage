@@ -46,7 +46,7 @@ app.post("/",function(req, res){
 
     const options ={
         method:"POST",
-        auth:"bala:5ff9411a6bc11b4bfa4158bd3f79c843-us14",
+        auth:"EXAMPLE",
     }
 
 
